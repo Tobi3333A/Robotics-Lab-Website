@@ -55,38 +55,49 @@ nav a {
 main {
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-bottom: 15px;
     flex-grow: 1;
 }
-main h1 {
-    margin-top: 0px;
-}
-#sidePanel {
-    min-width: 200px;
+#sideBar {
+    min-width: 250px;
     background-color: #e0e0e0;
-    padding: 15px;
     border-radius: 5px;
-    max-height: 260px;
+    height: calc(100vh - 70px);
+    position: fixed;
+    left: 0;
+    top: 70px;
+    bottom: 0;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
-#sidePanel a, #contact a {
+#sideBar a, #contact a {
     text-decoration: none;
     color: #003366;
 }
-#contact {
+.bar {
+    padding: 0px 15px;
+}
+.picture img {
+    max-width: 200px;
+    border-radius: 30%;
+    display: block;
+    margin: 20px auto;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
     flex: 1;
-}
-.contactInfo h2 {
-    margin-bottom: 0px;
-}
-.contactInfo p {
-    margin-top: 5px;
+    margin: 0 auto;
+    max-width: 800px;
+    height: 100%;
+    text-align: justify;
 }
 footer {
-    background-color: #003366;
-    color: white;
+    color: black;
     text-align: center;
     padding: 10px 0;
+    position: absolute;
+    bottom: 0;
     width: 100%;
+}
+footer h6, footer i, footer a {
+    margin: 0 auto;
 }
