@@ -77,6 +77,7 @@ main {
 }
 .picture img {
     max-width: 200px;
+    max-height: 150px;
     border-radius: 30%;
     display: block;
     margin: 20px auto;
@@ -100,4 +101,5 @@ footer {
 }
 footer h6, footer i, footer a {
     margin: 0 auto;
+    color: black;
 }
