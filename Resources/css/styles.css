@@ -108,6 +108,9 @@ footer {
         display: none;
         width: 100%;
     }
+    nav ul.show {
+        display: block
+    }
     nav a {
         margin: 10px 0;
     }
