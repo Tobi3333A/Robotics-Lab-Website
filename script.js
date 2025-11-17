@@ -1,3 +1,3 @@
 $("button").click(function() {
-    $("nav").toggleClass("nav ul");
+    $("nav").toggleClass("nav");
 });
