@@ -130,9 +130,12 @@ footer h6, footer i, footer a {
         left: 20px;
     }
     nav ul {
+        position: absolute;
+        top: 70px;
         flex-direction: column;
         display: none;
-        width: 100%;
+        width: 250px;
+        background-color: #003366;
     }
     nav a {
         margin: 10px 0;
@@ -140,7 +143,7 @@ footer h6, footer i, footer a {
     #sideBar{
         position: absolute;
         width: 100%;
-        height: 100vh;
+        height: calc(100vh - 70px);
         display: none;
     }
 }
