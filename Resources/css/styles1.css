@@ -129,5 +129,8 @@ footer h6, footer i, footer a {
         position: absolute;
         width: 100%;
         display: none;
+        border-radius: 0;
+        height: auto;
+        box-shadow: none;
     }
 }

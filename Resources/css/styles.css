@@ -96,6 +96,9 @@ footer {
     .logo p {
         font-size: 16px;
     }
+    nav a {
+        margin: 0 10px;
+    }
     main {
         flex-direction: column;
     }
