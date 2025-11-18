@@ -64,7 +64,7 @@ main {
     height: auto;
     position: fixed;
     left: 0;
-    top: 70px;
+    top: 74px;
     bottom: 0;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
@@ -130,7 +130,7 @@ footer h6, footer i, footer a {
         width: 100%;
         display: none;
         border-radius: 0;
-        height: auto;
+        height: calc(100vh - 70px);
         box-shadow: none;
     }
 }
