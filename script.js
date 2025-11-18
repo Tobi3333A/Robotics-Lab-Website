@@ -1,6 +1,16 @@
 $(".menu-toggle").click(function() {
-    $("nav ul").toggleClass("show");
+    const ul = $("nav ul");
+    if (ul.css("display") === "none") {
+        ul.css("display", "block");
+    } else {
+        ul.css("display", "none");
+    }
 });
 $(".menu-tog").click(function() {
-    $("#sideBar").toggleClass("show");
+    const ul = $("#sideBar");
+    if (ul.css("display") === "none") {
+        ul.css("display", "block");
+    } else {
+        ul.css("display", "none");
+    }
 });
