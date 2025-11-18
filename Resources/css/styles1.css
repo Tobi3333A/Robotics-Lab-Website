@@ -132,11 +132,11 @@ footer h6, footer i, footer a {
     }
     nav {
         position: absolute;
-        top: 70px;
-        right: 10px;
+        top: 80px;
         width: 100%;
+        height: 150px;
         justify-content: flex-end;
-        background-color: #003366;
+        background-color: #064585;
         padding: 10px 0;
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         z-index: 1000;
@@ -145,11 +145,9 @@ footer h6, footer i, footer a {
     nav ul {
         flex-direction: column;
         align-items: center;
-        display: none;
     }
     nav a {
         margin: 20px 0;
-        font-size: 27px;
         text-decoration: underline;
         font-weight: bold;
         padding: 20px 0;

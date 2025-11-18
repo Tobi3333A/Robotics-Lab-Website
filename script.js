@@ -1,11 +1,9 @@
 $(".menu-toggle").click(function() {
-    const ul = $("nav ul");
     const van = $("nav");
-    if ((ul.css("display") === "none") | (van.css("display") === "none")) {
-        ul.css("display", "block");
+    if (van.css("display") === "none") {
         van.css("display", "block");
     } else {
-        ul.css("display", "none");
+        van.css("display", "none");
     }
 });
 $(".menu-tog").click(function() {
