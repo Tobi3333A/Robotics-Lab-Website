@@ -103,3 +103,28 @@ footer h6, footer i, footer a {
     margin: 0 auto;
     color: black;
 }
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+    }
+    nav a {
+        margin: 10px 0;
+    }
+    main {
+        flex-direction: column;
+    }
+    #sideBar {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    #sideBar.show {
+        display: block;
+    }
+}
