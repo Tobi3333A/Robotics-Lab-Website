@@ -93,6 +93,9 @@ footer {
     width: 100%;
 }
 @media (max-width: 768px) {
+    .logo p {
+        font-size: 18px;
+    }
     main {
         flex-direction: column;
     }
