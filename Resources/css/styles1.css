@@ -128,20 +128,24 @@ footer h6, footer i, footer a {
         display: block;
         top: 80px;
         left: 20px;
+        z-index: 1001;
     }
-    nav ul {
+    nav {
         position: absolute;
         top: 70px;
         right: 10px;
+        width: 100%;
+        justify-content: flex-end;
+        background-color: #003366;
+        padding: 10px 0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        z-index: 1000;
+        display: none;
+    }
+    nav ul {
         flex-direction: column;
         align-items: center;
         display: none;
-        width: 150px;
-        height: 125px;
-        background-color: #003366;
-        border-radius: 5px;
-        padding: 10px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
     nav a {
         margin: 20px 0;
@@ -154,7 +158,6 @@ footer h6, footer i, footer a {
     #sideBar{
         position: absolute;
         width: 100%;
-        height: calc(100vh - 70px);
         display: none;
     }
 }

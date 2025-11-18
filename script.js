@@ -1,7 +1,9 @@
 $(".menu-toggle").click(function() {
     const ul = $("nav ul");
-    if (ul.css("display") === "none") {
+    const van = $("nav");
+    if ((ul.css("display") === "none") | (van.css("display") === "none")) {
         ul.css("display", "block");
+        van.css("display", "block");
     } else {
         ul.css("display", "none");
     }
