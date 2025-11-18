@@ -7,7 +7,7 @@ $(".menu-toggle").click(function() {
     }
 });
 $(".menu-tog").click(function() {
-    const ul = $("#sideBar");
+    const ul = $(".bar");
     if (ul.css("display") === "none") {
         ul.css("display", "block");
     } else {
