@@ -130,7 +130,7 @@ footer h6, footer i, footer a {
         width: 100%;
         display: none;
         border-radius: 0;
-        height: calc(100vh - 70px);
+        height: auto;
         box-shadow: none;
     }
 }
